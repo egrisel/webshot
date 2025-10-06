@@ -1,0 +1,7 @@
+services:
+  webshot:
+    build: .
+    image: webshot:latest
+    ports:
+      - "8200:8000"
+    restart: unless-stopped
