@@ -1,0 +1,71 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.mo
+*.pyproject.toml.lock
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# === Environnements virtuels ===
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env.*
+pip-wheel-metadata/
+
+# === Playwright ===
+playwright-report/
+test-results/
+browser_contexts/
+trace.zip
+
+# === IDE / Éditeurs ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.pid
+*.pid.lock
+logs/
+tmp/
+*.bak
+docker-compose.override.yml
+# volumes temporaires
+/data/
+# build caches
+__docker_build__/
+# node_modules si tu ajoutes du JS
+node_modules/
+
+# === FastAPI / Uvicorn ===
+*.db
+*.sqlite3
+*.sqlite
+*.pid
+uvicorn.log
+
+# === VSCode devcontainer (optionnel) ===
+.devcontainer/
+
+# === JetBrains IDE metadata ===
+*.iml
+out/
